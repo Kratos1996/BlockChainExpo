@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/home"
+        android:icon="@drawable/home_nav_btn"/>
+    <item
+        android:title="@string/market"
+        android:icon="@drawable/market_nav_btn"/>
+    <item
+        android:title="@string/trade"
+        android:icon="@drawable/trade_nav_btn"/>
+    <item
+        android:title="@string/wallet"
+        android:icon="@drawable/wallet_nav_btn"/>
+</menu>

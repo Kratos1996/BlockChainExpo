@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BlockChainExpo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item  name="android:windowActivityTransitions">true</item>
+        <!-- <item name="android:windowIsTranslucent">false</item>-->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item><!--Change activity Window as wrap content-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="bigTextViewWithBold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="bigTextViewWithRegular">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="midTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="smallTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/robotomedium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="TabItemTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/robotomedium</item>
+    </style>
+    <style name="parent0dp">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="parent0dp_height">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+</resources>

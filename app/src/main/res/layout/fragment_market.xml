@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".presentation.home.market.MarketFragment">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutMain"
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="40dp"
+        android:fillViewport="true"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabIndicator="@null"
+        app:tabMaxWidth="0dp"
+        app:tabTextAppearance="@style/TabItemTextAppearance"
+        app:tabSelectedTextColor="@color/colorPrimary"
+        app:tabTextColor="@color/gray" >
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/zones"
+            android:id="@+id/zones"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/spot"
+            android:id="@+id/spot"/>
+    </com.google.android.material.tabs.TabLayout>
+    <FrameLayout
+        android:id="@+id/indicator"
+        android:layout_width="0dp"
+        android:layout_height="3dp"
+        android:background="@drawable/gradient_main"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPagerMarket"/>
+</LinearLayout>
+</layout>

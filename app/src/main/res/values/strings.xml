@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BlockChainExpo</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="trade">Trade</string>
+    <string name="market">Market</string>
+    <string name="zones">Zones</string>
+    <string name="spot">Spot</string>
+    <string name="name_market_cap">Name / Market Cap</string>
+    <string name="last_price_">Last Price/24h Change </string>
+    <string name="eth">ETH</string>
+    <string name="btc">BTC</string>
+</resources>
